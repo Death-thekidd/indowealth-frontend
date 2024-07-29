@@ -79,6 +79,7 @@ p {
 .gear-3 {
   top: 73%;
   left: 0;
+  width: 45px;
 }
 
 .gear-lg-1 {
@@ -99,7 +100,7 @@ p {
 }
 
 .gear-wheel-3 {
-  top: 3%;
+  top: 10%;
   right: 3%;
 }
 
@@ -123,6 +124,20 @@ p {
 
 .text-align {
   text-align: center;
+}
+
+.gear {
+  animation: rotate infinite linear;
+  animation-duration: 3s;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
 @media (min-width: 768px) {
