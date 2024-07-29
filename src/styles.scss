@@ -20,6 +20,10 @@ body {
   height: 100vh;
 }
 
+.child-body {
+  height: 100vh;
+}
+
 h1 {
   font-size: 15px;
 }
@@ -37,8 +41,9 @@ p {
 }
 
 .header-img {
-  height: 98px;
+  height: auto;
   width: auto;
+  margin-right: 4%;
 }
 
 .worker-img {
@@ -60,12 +65,12 @@ p {
 }
 
 .gear-2 {
-  top: 25%;
+  top: 15%;
   left: 0;
 }
 
 .gear-3 {
-  top: 70%;
+  top: 73%;
   left: 0;
 }
 
@@ -109,6 +114,10 @@ p {
   display: none;
 }
 
+.text-align {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 20px;
@@ -121,7 +130,7 @@ p {
     width: 749px;
   }
   .header-img {
-    height: 129px;
+    height: auto;
   }
   .worker-img {
     height: 528px;
