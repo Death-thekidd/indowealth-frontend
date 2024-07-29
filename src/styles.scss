@@ -17,18 +17,23 @@
 
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
   background-color: #fff;
-  height: 100vh;
 }
 
 .child-body {
-  height: 100vh;
+  position: relative;
+}
+
+.main-container {
+  position: relative;
+  min-height: 100%;
+  max-height: 1024px;
 }
 
 h1 {
@@ -114,6 +119,11 @@ p {
   right: 0;
 }
 
+.bottom-images {
+  position: relative;
+  align-self: flex-end;
+}
+
 .black-tape-lg-1 {
   display: none;
 }
@@ -153,6 +163,7 @@ p {
   }
   .header-img {
     height: auto;
+    margin-right: 2%;
   }
   .worker-img {
     height: 528px;
