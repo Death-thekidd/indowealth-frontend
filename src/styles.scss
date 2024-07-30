@@ -126,10 +126,12 @@ p {
 
 .black-tape-lg-1 {
   display: none;
+  height: auto;
 }
 
 .black-tape-lg-2 {
   display: none;
+  height: auto;
 }
 
 .text-align {
@@ -160,6 +162,9 @@ p {
   p {
     font-size: 20px;
     width: 749px;
+  }
+  .text-section {
+    margin-bottom: 100px;
   }
   .header-img {
     height: auto;
